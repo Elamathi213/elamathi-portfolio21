@@ -9,7 +9,6 @@ const About = () => {
         <h2 className="text-3xl font-bold text-center mb-12 text-blue-900">About Me</h2>
         <Card>
           <CardContent className="p-6">
-            <h3 className="text-2xl font-semibold mb-4 text-blue-800">Computer Science Engineering</h3>
             <p className="text-gray-700 leading-relaxed">
               I am a Computer Science Engineering student with a strong passion for coding and web development. 
               I thrive on using creativity and technology to build smart, efficient, and visually appealing 
