@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, User } from 'lucide-react';
+import { Mail, Phone, User, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
@@ -44,10 +44,10 @@ const Contact = () => {
             <CardContent className="p-6">
               <h3 className="text-2xl font-semibold mb-6 text-blue-800">Contact Information</h3>
               <div className="space-y-4">
-                <div className="flex items-center">
+                <a href="mailto:eelamathisankar@gmail.com" className="flex items-center hover:text-blue-600 transition-colors">
                   <Mail className="h-5 w-5 text-blue-600 mr-3" />
                   <p className="text-gray-700">eelamathisankar@gmail.com</p>
-                </div>
+                </a>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
                   <p className="text-gray-700">9894149305</p>
@@ -55,6 +55,31 @@ const Contact = () => {
                 <div className="flex items-center">
                   <User className="h-5 w-5 text-blue-600 mr-3" />
                   <p className="text-gray-700">Salem, Tamil Nadu</p>
+                </div>
+                
+                <div className="flex space-x-4 mt-6">
+                  <a 
+                    href="https://github.com/yourusername" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-600 transition-colors"
+                  >
+                    <Github className="h-6 w-6 text-blue-600" />
+                  </a>
+                  <a 
+                    href="https://linkedin.com/in/yourusername" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-600 transition-colors"
+                  >
+                    <Linkedin className="h-6 w-6 text-blue-600" />
+                  </a>
+                  <a 
+                    href="mailto:eelamathisankar@gmail.com"
+                    className="hover:text-blue-600 transition-colors"
+                  >
+                    <Mail className="h-6 w-6 text-blue-600" />
+                  </a>
                 </div>
               </div>
             </CardContent>
