@@ -59,7 +59,7 @@ const Contact = () => {
                 
                 <div className="flex space-x-4 mt-6">
                   <a 
-                    href="https://github.com/yourusername" 
+                    href="https://github.com/Elamathi213" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="hover:text-blue-600 transition-colors"
@@ -67,7 +67,7 @@ const Contact = () => {
                     <Github className="h-6 w-6 text-blue-600" />
                   </a>
                   <a 
-                    href="https://linkedin.com/in/yourusername" 
+                    href="https://www.linkedin.com/in/elamathi-sankar-172128291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="hover:text-blue-600 transition-colors"
